@@ -27,7 +27,7 @@ function App() {
 
     const correctedText = correctedWords.join(" ");
 
-    // Set the suggested text (first corrected word)
+    // Set the suggested text 
     const firstCorrection = correctedWords.find(
       (word, index) => word !== words[index]
     );
